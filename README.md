@@ -1,4 +1,4 @@
-# Welcome to Oracle Scripts!
+# Welcome to Shell Scripts!
 
 This is a collection of useful Oracle SQL and shell scripts that I frequently use.
 
