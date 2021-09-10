@@ -14,7 +14,7 @@ This is a collection of useful Oracle SQL and shell scripts that I frequently us
 
 *************************************************
 
-<h4><a href="https://github.com/alamertt/Shell-Scripts/blob/main/Powershell%20SMTP%20Test%20Script"> * SMTP Test Scrip * </a></h4>
+<h4><a href="https://github.com/alamertt/Shell-Scripts/blob/main/Powershell%20SMTP%20Test%20Script"> * SMTP Test Script * </a></h4>
 
 - Use powershell <br>
 - Fill in the stars yourself </br>
