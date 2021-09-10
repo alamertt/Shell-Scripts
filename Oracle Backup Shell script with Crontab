@@ -1,3 +1,4 @@
+#! /bin/sh
 export DATE=$(date +%d_%m_%y)
 export ORACLE_SID=orcl
 export ORACLE_HOME=/u01/app/oracle/product/11gR2/db
