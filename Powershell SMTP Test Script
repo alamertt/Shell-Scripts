@@ -1,0 +1,13 @@
+$smtp = New-Object System.Net.Mail.SmtpClient  
+$smtp.Host = ***.***.com"
+$smtp.Port = 25
+
+$creds = New-Object System.Net.NetworkCredential
+# $currentCreds = Get-Credential 
+
+$creds.Domain = "" 
+$creds.UserName = "***@***.com"  # $currentCreds.UserName
+$creds.Password = "***"  # $currentCreds.GetNetworkCredential()
+
+$smtp.Credentials = $creds
+$smtp.Send("***@***.com", "***@***.com", "My Subject", "test")
