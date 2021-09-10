@@ -13,6 +13,12 @@ This is a collection of useful Oracle SQL and shell scripts that I frequently us
 
 *************************************************
 
+<h4>* SMTP Test Script * </h4>
+
+- Use powershell <br>
+- Fill in the stars yourself </br>
+
+*************************************************
 
 
 
