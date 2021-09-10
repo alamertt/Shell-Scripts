@@ -1,0 +1,18 @@
+export DATE=$(date +%d_%m_%y)
+export ORACLE_SID=orcl
+export ORACLE_HOME=/u01/app/oracle/product/11gR2/db
+
+$ORACLE_HOME/bin/expdp ***/***@orcl directory=DATA_PUMP_DIR dumpfile=***_Backup_$DATE.dmp logfile=***_Backup_$DATE.log full=y
+
+bzip2 -v /u01/app/oracle/admin/orcl/dpdump/***_Backup_$DATE.dmp
+
+cd /u01/app/oracle/admin/orcl/dpdump/
+ftp -n ***.***.***.***(ip) <<END_SCRIPT
+quote USER ***
+quote PASS ***
+cd /VOLUME1/
+lcd /u01/app/oracle/admin/orcl/dpdump/
+put ***_Backup_$DATE.dmp.bz2
+END_SCRIPT
+rm /u01/app/oracle/admin/orcl/dpdump/***_Backup_$DATE.dmp.bz2
+
