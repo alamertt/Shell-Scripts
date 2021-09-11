@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+curl "http://gateway.*****.com/SendSmsGet.aspx?user=********&password=*********&to=${2}&text=${1}"
