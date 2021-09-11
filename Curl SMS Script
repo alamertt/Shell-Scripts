@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-curl "http://gateway.*****.com/SendSmsGet.aspx?user=********&password=*********&to=${2}&text=${1}"
+curl 'https://gateway.****.com/SendSmsGet.aspx' -G \
+--data-urlencode "user=******" \
+--data-urlencode "password=******" \
+--data-urlencode "to=${2}" \
+--data-urlencode "text=${1}"
