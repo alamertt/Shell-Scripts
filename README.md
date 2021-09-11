@@ -18,3 +18,10 @@ This is a collection of useful Oracle SQL and shell scripts that I frequently us
 
 - Use powershell <br>
 - Fill in the stars yourself </br>
+
+*************************************************
+
+<h4><a href="https://github.com/alamertt/Shell-Scripts/blob/main/Curl%20SMS%20Script"> * Curl SMS Script * </a></h4>
+
+- Save file "sms_scipt.sh <br>
+- run ./sms_script test 905325323232 </br>
